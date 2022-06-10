@@ -354,19 +354,6 @@ Wire Wire Line
 	2550 7950 2550 7800
 Wire Wire Line
 	2500 1600 2600 1600
-$Comp
-L power:VBUS #PWR02
-U 1 1 62A9C9E9
-P 4600 5700
-F 0 "#PWR02" H 4600 5550 50  0001 C CNN
-F 1 "VBUS" H 4600 5850 50  0000 C CNN
-F 2 "" H 4600 5700 50  0001 C CNN
-F 3 "" H 4600 5700 50  0001 C CNN
-	1    4600 5700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4600 5700 4800 5700
 Connection ~ 4800 5700
 Text Label 5800 5700 2    50   ~ 0
 5V_OUT
@@ -587,4 +574,8 @@ Connection ~ 4200 1600
 Connection ~ 4200 2400
 Wire Wire Line
 	4200 1600 4800 1600
+Text Label 4500 5700 0    50   ~ 0
+XVBUS
+Wire Wire Line
+	4500 5700 4800 5700
 $EndSCHEMATC
