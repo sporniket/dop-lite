@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name commons-interconnect_SMD)(type KiCad)(uri ${KIPRJMOD}/kicad-footprints-handmade/commons-interconnect_SMD.pretty)(options "")(descr ""))
+  (lib (name commons-passives_SMD)(type KiCad)(uri ${KIPRJMOD}/kicad-footprints-handmade/commons-passives_SMD.pretty)(options "")(descr ""))
+)

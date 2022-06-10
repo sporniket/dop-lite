@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name injoinic_ip2721)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols-generated/ics/power-management/injoinic_ip2721.lib)(options "")(descr ""))
+  (lib (name onsemi_lm2574n)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols-generated/ics/power-management/onsemi_lm2574n.lib)(options "")(descr ""))
+  (lib (name usb-connectors)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols-handmade/usb-connectors.lib)(options "")(descr ""))
+)
