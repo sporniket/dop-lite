@@ -5,10 +5,10 @@ $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 1 1
 Title "DOP `Delivery Of Power´ Lite"
-Date "2022-06-08"
+Date "2022-06-11"
 Rev "v1.0.0-draft"
 Comp "Sporniket-Studio.com"
-Comment1 ""
+Comment1 "Original source : https://github.com/sporniket/dop-lite"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -269,7 +269,7 @@ Text Label 4950 7800 2    50   ~ 0
 Wire Wire Line
 	4550 7800 4950 7800
 Wire Wire Line
-	4550 7600 5700 7600
+	4550 7600 5400 7600
 Connection ~ 6100 7600
 Wire Wire Line
 	6100 7600 6550 7600
@@ -318,19 +318,6 @@ Wire Notes Line
 	700  8700 7550 8700
 Text Notes 5650 9000 0    79   ~ 0
 Power Output
-$Comp
-L power:GND #PWR03
-U 1 1 62A8F091
-P 1950 6250
-F 0 "#PWR03" H 1950 6000 50  0001 C CNN
-F 1 "GND" H 1950 6100 50  0000 C CNN
-F 2 "" H 1950 6250 50  0001 C CNN
-F 3 "" H 1950 6250 50  0001 C CNN
-	1    1950 6250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1950 6250 1950 6100
 Text Label 5800 8000 0    50   ~ 0
 GND
 Wire Wire Line
@@ -339,19 +326,6 @@ Wire Wire Line
 	5700 8000 6100 8000
 Wire Wire Line
 	6100 8000 6100 7900
-$Comp
-L power:GND #PWR04
-U 1 1 62A96D55
-P 2550 7950
-F 0 "#PWR04" H 2550 7700 50  0001 C CNN
-F 1 "GND" H 2550 7800 50  0000 C CNN
-F 2 "" H 2550 7950 50  0001 C CNN
-F 3 "" H 2550 7950 50  0001 C CNN
-	1    2550 7950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2550 7950 2550 7800
 Wire Wire Line
 	2500 1600 2600 1600
 Connection ~ 4800 5700
@@ -371,8 +345,6 @@ Wire Wire Line
 Wire Wire Line
 	2600 1700 2600 1600
 Connection ~ 2600 1600
-Wire Wire Line
-	2600 1600 3000 1600
 Text Label 4950 7700 2    50   ~ 0
 GND
 Text Label 4950 7500 2    50   ~ 0
@@ -389,7 +361,7 @@ U 1 1 62A3E224
 P 1500 9350
 F 0 "H1" H 1500 9550 50  0000 C CNN
 F 1 "M4" H 1500 9475 50  0000 C CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4" H 1500 9350 50  0001 C CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 1500 9350 50  0001 C CNN
 F 3 "~" H 1500 9350 50  0001 C CNN
 	1    1500 9350
 	1    0    0    -1  
@@ -400,7 +372,7 @@ U 1 1 62A3EBCA
 P 2000 9350
 F 0 "H2" H 2000 9550 50  0000 C CNN
 F 1 "M4" H 2000 9475 50  0000 C CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4" H 2000 9350 50  0001 C CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 2000 9350 50  0001 C CNN
 F 3 "~" H 2000 9350 50  0001 C CNN
 	1    2000 9350
 	1    0    0    -1  
@@ -413,7 +385,7 @@ U 1 1 62A41F1D
 P 2500 9350
 F 0 "H3" H 2500 9550 50  0000 C CNN
 F 1 "M4" H 2500 9475 50  0000 C CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4" H 2500 9350 50  0001 C CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 2500 9350 50  0001 C CNN
 F 3 "~" H 2500 9350 50  0001 C CNN
 	1    2500 9350
 	1    0    0    -1  
@@ -424,20 +396,9 @@ U 1 1 62A42236
 P 3000 9350
 F 0 "H4" H 3000 9550 50  0000 C CNN
 F 1 "M4" H 3000 9475 50  0000 C CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4" H 3000 9350 50  0001 C CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 3000 9350 50  0001 C CNN
 F 3 "~" H 3000 9350 50  0001 C CNN
 	1    3000 9350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VBUS #PWR01
-U 1 1 62A987F5
-P 3000 1600
-F 0 "#PWR01" H 3000 1450 50  0001 C CNN
-F 1 "VBUS" H 3000 1750 50  0000 C CNN
-F 2 "" H 3000 1600 50  0001 C CNN
-F 3 "" H 3000 1600 50  0001 C CNN
-	1    3000 1600
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -558,24 +519,80 @@ Wire Wire Line
 	5450 3000 5450 2800
 Wire Wire Line
 	4200 2400 4200 2300
+Connection ~ 5450 1600
+Connection ~ 4200 1600
+Connection ~ 4200 2400
 Wire Wire Line
-	3000 1600 4200 1600
-Connection ~ 3000 1600
+	4200 1600 4800 1600
+Wire Wire Line
+	4500 5700 4800 5700
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 62A4CCCF
+P 6000 1600
+F 0 "#FLG0101" H 6000 1675 50  0001 C CNN
+F 1 "PWR_FLAG" H 6000 1750 50  0000 C CNN
+F 2 "" H 6000 1600 50  0001 C CNN
+F 3 "~" H 6000 1600 50  0001 C CNN
+	1    6000 1600
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	5450 1600 6000 1600
-Connection ~ 5450 1600
-Text Label 6000 1600 2    50   ~ 0
+Text Label 5600 1600 0    50   ~ 0
 XVBUS
 Text Label 1950 5800 0    50   ~ 0
 XVBUS
 Wire Wire Line
 	1950 5800 2350 5800
-Connection ~ 4200 1600
-Connection ~ 4200 2400
-Wire Wire Line
-	4200 1600 4800 1600
 Text Label 4500 5700 0    50   ~ 0
 XVBUS
 Wire Wire Line
-	4500 5700 4800 5700
+	1900 3200 2150 3200
+Connection ~ 1900 3200
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 62A5512F
+P 2150 3200
+F 0 "#FLG0102" H 2150 3275 50  0001 C CNN
+F 1 "PWR_FLAG" H 2150 3350 50  0000 C CNN
+F 2 "" H 2150 3200 50  0001 C CNN
+F 3 "~" H 2150 3200 50  0001 C CNN
+	1    2150 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5800 5700 6200 5700
+Connection ~ 5800 5700
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 62A5817E
+P 6200 5700
+F 0 "#FLG0103" H 6200 5775 50  0001 C CNN
+F 1 "PWR_FLAG" H 6200 5850 50  0000 C CNN
+F 2 "" H 6200 5700 50  0001 C CNN
+F 3 "~" H 6200 5700 50  0001 C CNN
+	1    6200 5700
+	1    0    0    -1  
+$EndComp
+Text Label 2550 7800 0    50   ~ 0
+GND
+Text Label 1950 6100 0    50   ~ 0
+GND
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 62A586C6
+P 5400 7600
+F 0 "#FLG0104" H 5400 7675 50  0001 C CNN
+F 1 "PWR_FLAG" H 5400 7750 50  0000 C CNN
+F 2 "" H 5400 7600 50  0001 C CNN
+F 3 "~" H 5400 7600 50  0001 C CNN
+	1    5400 7600
+	1    0    0    -1  
+$EndComp
+Connection ~ 5400 7600
+Wire Wire Line
+	5400 7600 5700 7600
+Wire Wire Line
+	2600 1600 4200 1600
 $EndSCHEMATC
