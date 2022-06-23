@@ -360,8 +360,8 @@ L Mechanical:MountingHole H1
 U 1 1 62A3E224
 P 1500 9350
 F 0 "H1" H 1500 9550 50  0000 C CNN
-F 1 "M4" H 1500 9475 50  0000 C CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 1500 9350 50  0001 C CNN
+F 1 "M2.5" H 1500 9475 50  0000 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 1500 9350 50  0001 C CNN
 F 3 "~" H 1500 9350 50  0001 C CNN
 	1    1500 9350
 	1    0    0    -1  
@@ -371,8 +371,8 @@ L Mechanical:MountingHole H2
 U 1 1 62A3EBCA
 P 2000 9350
 F 0 "H2" H 2000 9550 50  0000 C CNN
-F 1 "M4" H 2000 9475 50  0000 C CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 2000 9350 50  0001 C CNN
+F 1 "M2.5" H 2000 9475 50  0000 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 2000 9350 50  0001 C CNN
 F 3 "~" H 2000 9350 50  0001 C CNN
 	1    2000 9350
 	1    0    0    -1  
@@ -384,8 +384,8 @@ L Mechanical:MountingHole H3
 U 1 1 62A41F1D
 P 2500 9350
 F 0 "H3" H 2500 9550 50  0000 C CNN
-F 1 "M4" H 2500 9475 50  0000 C CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 2500 9350 50  0001 C CNN
+F 1 "M2.5" H 2500 9475 50  0000 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 2500 9350 50  0001 C CNN
 F 3 "~" H 2500 9350 50  0001 C CNN
 	1    2500 9350
 	1    0    0    -1  
@@ -395,8 +395,8 @@ L Mechanical:MountingHole H4
 U 1 1 62A42236
 P 3000 9350
 F 0 "H4" H 3000 9550 50  0000 C CNN
-F 1 "M4" H 3000 9475 50  0000 C CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 3000 9350 50  0001 C CNN
+F 1 "M2.5" H 3000 9475 50  0000 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 3000 9350 50  0001 C CNN
 F 3 "~" H 3000 9350 50  0001 C CNN
 	1    3000 9350
 	1    0    0    -1  
